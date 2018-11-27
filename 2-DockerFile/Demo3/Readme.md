@@ -6,7 +6,7 @@ Check the image created:
 
 It should have the same size than the dockerfiledemo2.
 
-Now change somtehing in the source code without changing the project or solution file, like add ";" somewhere in code.
+Now change something in the source code without changing the project or solution file, like add ";" somewhere in code.
 
 Build the image again:
 > docker build -t dockerfiledemo3 .
