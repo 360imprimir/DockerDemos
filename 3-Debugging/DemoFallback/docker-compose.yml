@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  demofallback:
+    image: ${DOCKER_REGISTRY-}demofallback
+    build:
+      context: .
+      dockerfile: DemoFallback/Dockerfile
