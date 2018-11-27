@@ -2,9 +2,8 @@ FROM microsoft/dotnet:2.1-sdk as build-image
 
 WORKDIR /home/app
 
-COPY ./HelloWorld.sln .
 COPY ./HelloWorld/HelloWorld.csproj ./HelloWorld/
-RUN dotnet restore
+RUN dotnet restore ./HelloWorld/HelloWorld.csproj
 
 COPY . .
 
