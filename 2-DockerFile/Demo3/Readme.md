@@ -13,6 +13,9 @@ Build the image again:
 
 In the output notice that all steps previous to "COPY . ." report that are using cache.
 
+Check the layers that are part of this image by running:
+> docker history dockerfiledemo3
+
 Now, let's try to run the container using the command (if in use, change the 9091 port to a free port on your machine):
 > docker run -it --rm -p 9091:80 dockerfiledemo3
 
