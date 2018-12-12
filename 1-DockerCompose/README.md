@@ -12,3 +12,6 @@ Wait for kibana to start and then go to:
 
 Check the logs to know when it's up:
 > docker logs kibana
+
+Stop the services by running:
+> docker-compose down
