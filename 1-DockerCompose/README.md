@@ -8,7 +8,7 @@ Check the logs to know when it's up:
 > docker logs elasticsearch
 
 Wait for kibana to start and then go to:
-> https://localhost:5601
+> http://localhost:5601
 
 Check the logs to know when it's up:
 > docker logs kibana
